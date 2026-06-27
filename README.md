@@ -43,6 +43,7 @@ A highly efficient modding tool for Factorio 2.1+ / Space Age designed to instan
 ------------------------------
 ## 🛠️ Technical Details / Technische Details
 This mod bypasses the strict Factorio 2.1 engine entity-filtering rules for custom selection tools by reading the raw coordinates (event.area) and scanning the surface manually using a custom find_entities_filtered routine.
+
 Diese Mod umgeht die strengen Filter-Regeln der Factorio 2.1 Engine, indem sie die rohen Koordinaten des Rahmens (event.area) abfängt und den Bereich manuell per find_entities_filtered nach feindlichen Objekten absucht.
 
 ------------------------------
