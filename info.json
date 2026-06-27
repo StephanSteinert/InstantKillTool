@@ -1,0 +1,9 @@
+{
+  "name": "InstantKillTool",
+  "version": "2.0.0",
+  "title": "Instant Kill Hand Tool",
+  "author": "steinio",
+  "factorio_version": "2.1",
+  "dependencies": ["base >= 2.0.0", "? space-age >= 2.0.0"],
+  "description": "Ein Handwerkzeug, das alle Feinde im Umkreis per Mausklick tötet."
+}
