@@ -36,7 +36,7 @@ script.on_event(defines.events.on_player_selected_area, function(event)
         end
         
         if killed_count > 0 then
-            player.print("💥 " .. killed_count .. " Feinde erfolgreich pulverisiert!")
+            player.print({"message.enemies-pulverized", killed_count})
         end
     end
 end)
